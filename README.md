@@ -13,22 +13,29 @@ Promise Usage
 git clone  <git lab template url> <project_name>
 ```
 
-- to run project in VS code console type
-- node server.js
+- Build and run the project
+```
+node index.js
+```
+  Navigate to `http://localhost:3000` in POSTMAN 
+
+- API Document endpoints
+
+   Endpoint : http://localhost:3000/findservers
 
 # Task to do 
 
 1. Node Module with a `findServer()` function which should return a Promise that either: 
-     a. Resolves with the online server that has the lowest priority number. 
-     b. Rejects with an error, if no Servers are online. 
+     - Resolves with the online server that has the lowest priority number. 
+     - Rejects with an error, if no Servers are online. 
 
 2. HTTP GET requests should be used to determine if a server is online or offline additionally the following is required: 
-    a. All GET requests should be done simultaneously. 
-    b. A GET request should timeout after 5 seconds. 
-    c. A server should be considered online if it’s response status code is between 200 and 299. 
+    - All GET requests should be done simultaneously. 
+    - A GET request should timeout after 5 seconds. 
+    - A server should be considered online if it’s response status code is between 200 and 299. 
 
 
 
 # Output 
 
-![Alt Text](https://github.com/hrkbrahmbhatt/Assignement1/blob/master/giff.gif)
+![Alt Text](https://github.com/hrkbrahmbhatt/Assignement1/blob/master/gg.gif)
