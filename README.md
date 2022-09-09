@@ -34,6 +34,26 @@ node index.js
     - A GET request should timeout after 5 seconds. 
     - A server should be considered online if it’s response status code is between 200 and 299. 
 
+- Server Array 
+ ``` [
+  {
+    "url": "http://doesNotExist.boldtech.co",
+    "priority": 1
+  },
+  {
+    "url": "http://boldtech.co",
+    "priority": 7
+  },
+  {
+    "url": "http://offline.boldtech.co",
+    "priority": 2
+  },
+  {
+    "url": "http://google.com",
+    "priority": 4
+  }
+]
+ ```
 
 
 # Output 
